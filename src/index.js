@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { getDefaultNormalizer } from '@testing-library/react';
+import Main from "./main";
+import "./index.css";
 
 const App = () => {
     const buttonText = { text: 'Click me'};
@@ -51,4 +52,4 @@ const App = () => {
     );
 };
 
-ReactDOM.render(<App />, document.querySelector('#root'));
+ReactDOM.render(<Main />, document.querySelector('#root'));
