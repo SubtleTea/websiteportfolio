@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Projects extends Component {
     render() {
         return (
-            <div>
+            <div className="contentbox">
                 <h2>PROJECTS TITLE</h2>
                 <p>PROJECTS CONTENT</p>
                 <ol>
