@@ -1,18 +1,14 @@
-import React, { Component } from "react";
+import React from "react";
 import Main from './main';
 
-class Contact extends Component {
-    render() {
-        return (
-            <div>
-                <Main />;
-                <div className="contentbox">
-                    <h2>CONTACT ME</h2>
-                    <p>Contact me at <a href="www.google.com">here</a></p>
-                </div>
-            </div>
-        );
-    }
-}
+const Contact = () => (
+    <>
+        <Main />;
+        <div className="contentbox">
+            <h2>CONTACT ME</h2>
+            <p>Contact me at <a href="www.google.com">here</a></p>
+        </div>
+    </>
+);
 
 export default Contact;

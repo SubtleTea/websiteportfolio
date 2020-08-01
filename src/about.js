@@ -1,41 +1,18 @@
-import React, { Component } from "react";
+import React from "react";
 import Main from './main';
-import { Box, Grid } from '@material-ui/core';
 
-class About extends Component {
-    render() {
-        return (
-            <div id="section2">
-                <Main />;
-                <Grid container direction="column" justify="flex-start" alignItem="stretch" spacing={2}>
-                    <Grid item>
-                        <Box className="contentbox">
-                            <h2>FULLSTACK ENGINEER</h2>
-                            <p>i plonk on a keyboard and sometimes programs come out</p>
-                        </Box>
-                    </Grid>
-                    <Grid item>
-                        <Box className="contentbox">
-                            <h2>FULLSTACK ENGINEER</h2>
-                            <p>this isn't one of those times though</p>
-                        </Box>
-                    </Grid>
-                    <Grid item>
-                        <Box className="contentbox">
-                            <h2>I WENT TO SCHOOL ONCE</h2>
-                            <p>it was so bad i left</p>
-                        </Box>
-                    </Grid>
-                    <Grid item>
-                        <Box className="contentbox">
-                            <h2>AlSO I HAVE HAD A JOB OR SOMETHING</h2>
-                            <p>it's not something to bring up in polite conversation</p>
-                        </Box>
-                    </Grid>
-                </Grid>
-            </div>
-        );
-    }
-}
+const About = () => (
+    <>
+        <Main />;
+        <div className="contentbox">
+                <h2>FULLSTACK ENGINEER</h2>
+                <p>i plonk on a keyboard and sometimes programs come out</p>
+        </div>
+        <div className="contentbox">
+                <h2>FULLSTACK ENGINEER</h2>
+                <p>this isn't one of those times though</p>
+        </div>
+    </>
+);
 
 export default About;
