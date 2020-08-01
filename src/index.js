@@ -1,55 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Main from "./main";
+import Home from "./home";
+import About from "./about";
+import Projects from "./projects";
+import Contact from "./contact";
+import NotFound from "./notfound";
 import "./index.css";
 
-const App = () => {
-    const buttonText = { text: 'Click me'};
-    const labelText = 'Enter name:';
+import { BrowserRouter, Route, Switch} from 'react-router-dom';
 
-    function getTime() {
-        return (new Date()).toLocaleTimeString()
-    }
-
-
-    return (
-        <div>
-            <label className="label" htmlFor="name">
-                {labelText}
-            </label>
-            <input id="name" type="text" />
-            <button style={{ backgroundColor: 'blue', color: 'white'}}>
-                {buttonText.text}
-            </button>
-
-            <div id="child">
-            <h3>{getTime()}</h3>
-            </div>
-
-            <div className="ui container comments">
-                <div className="comment">
-                    <a href="/" className="avatar">
-                        <img alt="avatar" />
-                    </a>
-                    <div className="content">
-                        <a href="/" className="author">
-                            Sam
-                        </a>
-                        <div className="metadata">
-                            <span className="date">
-                                <h3>{getTime()}</h3>
-                            </span>
-                        </div>
-                        <div className="text">
-                            Comment
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    );
-};
-
-ReactDOM.render(<Main />, document.getElementById('root'));
+ReactDOM.render(<BrowserRouter>
+        <Switch>
+            <Route exact path="/" component={Home}/>
+            <Route path="/about" component={About}/>
+            <Route path="/projects" component={Projects}/>
+            <Route path="/contact" component={Contact}/>
+            <Route component={NotFound} />
+        </Switch>
+    </BrowserRouter>,
+    document.getElementById('root'));
