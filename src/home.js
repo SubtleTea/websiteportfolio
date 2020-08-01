@@ -1,33 +1,23 @@
 import React, { Component } from "react";
 import { Box, Grid } from '@material-ui/core';
+import Main from './main';
 
 class Home extends Component {
     render() {
         return (
-            <div>
+            <div id="section1">
+                <Main />;
                 <Grid container direction="column" justify="flex-start" alignItem="stretch" spacing={2}>
                     <Grid item>
                         <Box className="contentbox">
-                            <h2>FULLSTACK ENGINEER</h2>
-                            <p>i plonk on a keyboard and sometimes programs come out</p>
+                            <h2>This is a website built from scratch using React</h2>
+                            <p>It is a work in progress</p>
                         </Box>
                     </Grid>
                     <Grid item>
                         <Box className="contentbox">
-                            <h2>PLONK PLONK PLONK</h2>
-                            <p>this isn't one of those times though</p>
-                        </Box>
-                    </Grid>
-                    <Grid item>
-                        <Box className="contentbox">
-                            <h2>I WENT TO SCHOOL ONCE</h2>
-                            <p>it was so bad i left</p>
-                        </Box>
-                    </Grid>
-                    <Grid item>
-                        <Box className="contentbox">
-                            <h2>AlSO I HAVE HAD A JOB OR SOMETHING</h2>
-                            <p>it's not something to bring up in polite conversation</p>
+                            <h2>BE SURE TO LIKE AND SUBSCRIBE</h2>
+                            <p>follow me on instagram</p>
                         </Box>
                     </Grid>
                 </Grid>
