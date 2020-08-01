@@ -2,12 +2,10 @@ import React from 'react';
 import {Avatar} from '@material-ui/core'
 
 const Sidebar = () => (
-    <section className="sidebar" id="sidebar">
-        <section id="header">
-            <header>
-                <h2>Ariel Lim</h2>
-                <p>ariel.lim.us@gmail.com</p>
-            </header>
+    <section className="sidebar">
+        <section className="sidebar-header">
+            <h2>Ariel Lim</h2>
+            <p>ariel.lim.us@gmail.com</p>
         </section>
         <section className="about">
             <p> sometimes i plonk on a keyboard and programs come out</p>

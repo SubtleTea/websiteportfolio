@@ -43,6 +43,7 @@ ul.header a.active {
 
 .contentbox {
     margin-left: 420px;
+    margin-bottom: 30px;
     padding: 1px 16px;
     background-color: rgb(204, 174, 110);
     padding: 20px;
@@ -76,4 +77,3 @@ ul.header a.active {
       position: absolute;
       bottom: 30px;
   }
-
