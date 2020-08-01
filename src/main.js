@@ -9,7 +9,7 @@ const Main = () => (
     <>
         <Sidebar />
         <div>
-            <ul className="header">
+            <ul className="top-menu">
                 <li><NavLink to="/" exact activeClassName='active'>Home</NavLink></li>
                 <li><NavLink to="/about" exact activeClassName='active'>About</NavLink></li>
                 <li><NavLink to="/projects" activeClassName='active'>Projects</NavLink></li>
