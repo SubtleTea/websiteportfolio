@@ -9,7 +9,7 @@ const Sidebar = () => (
             <p>ariel.lim.us@gmail.com</p>
         </section>
         <section className="sidebar-content">
-            <p> sometimes i plonk on a keyboard and programs come out</p>
+            <p>Sometimes I plonk on a keyboard and programs come out</p>
         </section>
         <section className="sidebar-footer">
             <h2>Follow me on social media i guess</h2>

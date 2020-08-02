@@ -9,7 +9,7 @@ h1, h2, p, ul, li {
 }
 
 .top-menu {
-    background-color: rgb(228, 161, 84);
+    background-color: rgb(247, 182, 108);
     margin-left: 420px;
     height: 50px;
     text-align: left;
@@ -22,7 +22,7 @@ h1, h2, p, ul, li {
 }
 
 .top-menu a {
-    color: rgb(241, 243, 144);
+    color: rgb(246, 248, 105);
     font-weight: bold;
     text-decoration: none;
     display: inline-block;
@@ -34,11 +34,19 @@ h1, h2, p, ul, li {
     color: rgb(8, 8, 8);
 }
 
+.title-box {
+    margin-left: 420px;
+    margin-bottom: 20px;
+    padding: 12px 20px;
+    background-color: rgb(243, 212, 145);
+    border: solid 1px;
+}
+
 .contentbox {
     margin-left: 420px;
     margin-bottom: 20px;
     padding: 12px 20px;
-    background-color: rgb(204, 174, 110);
+    background-color: rgb(238, 219, 178);
     border: solid 1px;
 }
 
@@ -60,7 +68,7 @@ h1, h2, p, ul, li {
   }
 
   .date {
-    display:inline-block;
+    font-style: italic;
     float: right;
   }
 
@@ -68,7 +76,7 @@ h1, h2, p, ul, li {
     margin: 0;
     padding:0;
     width: 400px;
-    background-color: #e6d266f8;
+    background-color: #ddd8bcd5;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -76,7 +84,11 @@ h1, h2, p, ul, li {
 
   .sidebar-header {
       text-align: center;
-      border: solid 1px;
+  }
+
+  .sidebar p {
+      margin-left: 4px;
+      margin-right: 4px;
   }
 
   .avatar {
@@ -109,3 +121,30 @@ h1, h2, p, ul, li {
       margin-right: auto;
   }
 
+  .oopsy {
+      text-align: center;
+  }
+
+  .resume-header {
+    background-color: rgb(243, 213, 179);
+    margin-left: 700px;
+    height: 40px;
+    text-align: left;
+}
+
+.resume-header li {
+    display: inline;
+    padding: 16px;
+    margin-left: 40px;
+}
+
+.resume-header a {
+    color: rgb(80, 56, 5);
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin: 16px;
+    padding-right: 20px;
+    font-size: 12px;
+
+}
