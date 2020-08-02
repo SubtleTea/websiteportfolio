@@ -11,7 +11,7 @@ const Main = () => (
         <div>
             <ul className="top-menu">
                 <li><NavLink to="/" exact activeClassName='active'>Home</NavLink></li>
-                <li><NavLink to="/about" exact activeClassName='active'>About</NavLink></li>
+                <li><NavLink to="/resume" exact activeClassName='active'>Resume</NavLink></li>
                 <li><NavLink to="/projects" activeClassName='active'>Projects</NavLink></li>
                 <li><NavLink to="/contact" activeClassName='active'>Contact Me</NavLink></li>
             </ul>
