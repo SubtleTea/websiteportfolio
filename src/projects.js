@@ -1,9 +1,8 @@
 import React from "react";
 import Main from './main';
-import KiddyKode from './kiddykode.png';
-import KiddyKodeGif from './kiddykodegif.gif';
 
 import Collaborate from './collaborate.png';
+import KiddyKodeGif from './kiddykodegif.gif';
 
 const Projects = () => (
     <>

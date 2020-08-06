@@ -5,7 +5,7 @@ class Retriever extends Component {
         super(props);
 
         this.state = {
-            data: null,
+            data: "",
             isLoading: false,
         };
     }
@@ -13,9 +13,9 @@ class Retriever extends Component {
     componentDidMount() {
         this.setState({isLoading: true});
 
-        fetch('api.url')
-            .then(response => response.json())
-            .then(data => this.setState( { data: data, isLoading: false }));
+        fetch('http://localhost:9000/education')
+            .then(res => res.text())
+            .then(res => this.setState( { data: res, isLoading: false }));
     }
 
     render() {
@@ -24,7 +24,7 @@ class Retriever extends Component {
             return <p>Loading data from server...</p>;
         }
         return (
-            data
+            <p>{data}</p>
         )
     };
 }

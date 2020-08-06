@@ -1,5 +1,5 @@
 body {
-    background-color: #ffcc0021;
+    background-color: #72cfc321;
     padding: 20px;
     margin: 0;
 }
@@ -9,7 +9,7 @@ h1, h2, p, ul, li {
 }
 
 .top-menu {
-    background-color: rgb(247, 182, 108);
+    background-color: rgb(76, 186, 230);
     margin-left: 420px;
     height: 50px;
     text-align: left;
@@ -22,7 +22,7 @@ h1, h2, p, ul, li {
 }
 
 .top-menu a {
-    color: rgb(246, 248, 105);
+    color: rgb(34, 54, 233);
     font-weight: bold;
     text-decoration: none;
     display: inline-block;
@@ -38,7 +38,7 @@ h1, h2, p, ul, li {
     margin-left: 420px;
     margin-bottom: 20px;
     padding: 12px 20px;
-    background-color: rgb(243, 212, 145);
+    background-color: rgb(255, 255, 255);
     border: solid 1px;
 }
 
@@ -46,7 +46,7 @@ h1, h2, p, ul, li {
     margin-left: 420px;
     margin-bottom: 20px;
     padding: 12px 20px;
-    background-color: rgb(238, 219, 178);
+    background-color: rgb(255, 255, 255);
     border: solid 1px;
 }
 
@@ -76,7 +76,7 @@ h1, h2, p, ul, li {
     margin: 0;
     padding:0;
     width: 400px;
-    background-color: #ddd8bcd5;
+    background-color: #d1d0cbde;
     position: fixed;
     height: 100%;
     overflow: auto;
