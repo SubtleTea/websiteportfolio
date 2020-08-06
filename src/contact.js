@@ -6,7 +6,7 @@ const Contact = () => (
         <Main />;
         <div className="title-box">
             <h2>CONTACT ME</h2>
-            <p>Contact me at <a href="www.google.com">here</a></p>
+            <p>Contact me at <a href="wowanemailorsomething@asdfadfasf.asdf">here</a></p>
         </div>
     </>
 );
